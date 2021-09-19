@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 :root{
     --heading : #18191B;
@@ -10,32 +11,35 @@ body{
 }
 
 /* ------------ Navbar -------------------------------------*/
-/* #navbar{
-    padding-left: 60px;
-    height: 10vh;
-    background-color: var(--head);
+#n-bar .naav{
+    padding: 1em 13em;
 }
-
-#navbar .nav-link{
+#n-bar .log{
+    font-weight: 700;
+}
+#n-bar .lin{
+    margin-left: 50%;;
+    white-space: nowrap;
+}
+#n-bar .liin{
+    margin-left: 30px;;
+}
+#n-bar .ac{
+    color: #7858FF;
     font-weight: 600;
-    margin-left: 20px;
-    width: 90px;
 }
-
-#navbarNav{
-    margin-left: 25%;
-    background-color: var(--head);
+#n-bar .btts{
+    padding: -0.2em 0.2em;
+    height: 5vh;
+    background-color: var(--primary);
+    color: var(--back);
 }
-
-#navbar #cta{
-    margin-left: 55%;
-    border: 2px solid var(--primary);
-    background-color: transparent;
-    color: var(--primary);
-    font-weight: 600;
-} */
-
-
+#n-bar .btts:focus{
+    box-shadow: none;
+}
+#n-bar .btts:hover{
+    background-color: #5b38fa;
+}
 /*  
     #########################
     ###############SECTION 2
@@ -43,11 +47,23 @@ body{
 */
 
 #mkc1{
-    /* margin-top: -15vh; */
+    margin-top: 50px;
     padding: 10em 5em;
     height: 90vh;
 }
+#mkc .left-ka-dabba{
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
 
+@keyframes slide {
+    100% { left: 0; }
+}
 #mkc1 .left-ka-dabba h1{
     color: var(--heading);
     font-size: 50px;
@@ -75,6 +91,23 @@ body{
     border-radius: 6px;
     font-weight: 500;
     font-size: 1.1em;
+}
+#mkc1 .baap_ka_button button:hover{
+    width: 180px;
+    height: 45px;
+    background-color:#5b38fa;
+    color: #FFFFFF;
+    border: 3px solid #5b38fa;
+    outline: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+#mkc1 .right-ka-dabba img{
+    height:880px;
+    width: 880px;;
+    margin-top: -150px;
 }
 
 
@@ -118,7 +151,17 @@ body{
     font-weight: 500;
     font-size: 1.1em;
 }
-
+#mkc2 .baap_ka_button button:hover{
+    width: 180px;
+    height: 45px;
+    background-color:#5b38fa;
+    color: #FFFFFF;
+    border: 3px solid #5b38fa;
+    outline: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
 #mkc2 .right-ka-dabba img{
     height: 90%;
     width: 90%;
@@ -239,6 +282,7 @@ body{
 #mkc5{
     padding: 5em 5em 14em 5em;
     background-color: var(--back);
+
 }
 
 #mkc5 h1{
@@ -426,3 +470,106 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 } 
+
+
+/*---------------Media Queries------------------*/
+
+@media screen and (max-width: 960px){
+    #n-bar .naav{
+        padding: 1em 3em;
+    }
+    
+    #n-bar .lin{
+        margin-left: 0%;;
+        white-space: nowrap;
+    }
+    #n-bar .liin{
+        margin-left: 0px;;
+        margin-top: 10px;;
+    }
+    #n-bar .ac{
+        color: #7858FF;
+        font-weight: 600;
+    }
+    #n-bar .btts{
+        padding: -0.2em 0.2em;
+        height: 5vh;
+        background-color: var(--primary);
+        color: var(--back);
+    }
+    #n-bar .btts:focus{
+        box-shadow: none;
+    }
+    #n-bar .btts:hover{
+        background-color: #5b38fa;
+    }
+}
+
+@media screen and (max-width : 754px){
+    #mkc1 .right-ka-dabba{
+        display: none;
+    }
+    #mkc1{
+        padding: 10em 2em;
+    }
+    #mkc1 .left-ka-dabba h1{    
+        font-size: 30px;;
+    }
+
+    #mkc2{
+        padding: 5em 2em;
+        margin-top: auto;
+    }
+    #mkc2 .left-ka-dabba h1{
+        font-size: 30px;
+    }
+    #mkc3{
+        padding: 3em 2em;
+        margin-top: 250px;
+        text-align: center;
+    }
+    #mkc3 .card{
+        text-align: center;
+        margin-top: 50px;;
+    }
+
+    #mkc3 .card .card-img-top{
+        margin-left: 37%;      
+    }
+    #mkc3  h1{
+        font-size: 30px;
+    }
+    #mkc4 h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #mkc5{
+        padding: 3em 2em;
+    }
+
+    #mkc5 .pura-dabba{
+        background-color: #FFFFFF;
+        height: 780px;
+        border-radius: 5px;
+    }
+    
+    #mkc5 .right-dabba {
+        height: 100%;
+        padding: 2.5em 3em;
+    }
+    #mkc6{
+        margin-top: 80px;
+    }
+    #footer{
+        z-index: 1;
+        background-color: var(--back2);
+        padding: 5em 3em 0.4em 3em;
+        color: #FFFFFF;
+    }
+    #footer .footer_links{
+        padding: 0;
+        margin-left:-1.4em;
+        margin-top: 50px;
+    }
+}
