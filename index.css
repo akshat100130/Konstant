@@ -1,0 +1,428 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --heading : #18191B;
+    --text : #707070;
+    --primary: #7858FF;
+    --back: #F3F0FF;
+    --back2: #171717;
+}
+
+/* ------------ Navbar -------------------------------------*/
+/* #navbar{
+    padding-left: 60px;
+    height: 10vh;
+    background-color: var(--head);
+}
+
+#navbar .nav-link{
+    font-weight: 600;
+    margin-left: 20px;
+    width: 90px;
+}
+
+#navbarNav{
+    margin-left: 25%;
+    background-color: var(--head);
+}
+
+#navbar #cta{
+    margin-left: 55%;
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+    font-weight: 600;
+} */
+
+
+/*  
+    #########################
+    ###############SECTION 2
+    ############################
+*/
+
+#mkc1{
+    /* margin-top: -15vh; */
+    padding: 10em 5em;
+    height: 90vh;
+}
+
+#mkc1 .left-ka-dabba h1{
+    color: var(--heading);
+    font-size: 50px;
+    width: 85%;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#mkc1 .left-ka-dabba p{
+    color: var(--text);
+    width: 100%;
+    font: 400;
+    font-size: 16px;
+    margin-bottom: 2.5em;
+}
+
+#mkc1 .baap_ka_button button{
+    width: 180px;
+    height: 45px;
+    background-color: var(--primary);
+    color: #FFFFFF;
+    border: 3px solid var(--primary);
+    outline: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+
+/*  
+    #########################
+    ###############SECTION 2
+    ############################
+*/
+
+#mkc2{
+    /* margin-top: -15vh; */
+    padding: 5em 5em;
+    height: 70vh;
+}
+
+#mkc2 .left-ka-dabba h1{
+    color: var(--heading);
+    font-size: 45px;
+    width: 85%;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#mkc2 .left-ka-dabba p{
+    color: var(--text);
+    width: 100%;
+    font: 400;
+    font-size: 16px;
+    margin-bottom: 2.5em;
+}
+
+#mkc2 .baap_ka_button button{
+    width: 180px;
+    height: 40px;
+    background-color: var(--primary);
+    color: #FFFFFF;
+    border: 3px solid var(--primary);
+    outline: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+#mkc2 .right-ka-dabba img{
+    height: 90%;
+    width: 90%;
+}
+
+/*  
+    #########################
+    ###############SECTION 3
+    ############################
+*/
+
+#mkc3{
+    background-color: var(--back);
+    padding: 5em 5em;
+}
+
+#mkc3 .card{
+    background-color: var(--back);
+    border: none;
+}
+
+#mkc3 h1{
+    color: var(--heading);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+#mkc3 .card .card-img-top{
+    height: 30%;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+#mkc3 .card .card-body{
+    padding: 0;
+}
+
+#mkc3 .card .card-body .card-title{
+    margin: 25px 0;
+    font-weight: 700;
+}
+
+
+/*  
+    #########################
+    ###############SECTION 4
+    ############################
+*/
+
+#mkc4{
+    padding: 5em 5em;
+}
+
+#mkc4 h1{
+    color: var(--heading);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+
+#mkc4 .bloc_elem{
+    margin-bottom: 3em;
+}
+
+#mkc4 img{
+    height: 200px;
+    width: 300px;
+}
+
+
+#mkc4 .bloc_elem .overlay {
+    margin-left: 16px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: #0000006e;
+}
+
+#mkc4 .bloc_elem:hover .overlay {
+    opacity: 1;
+}
+
+#mkc4 .bloc_elem .overlay_text{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.baapkadiv{
+    /* padding: 10px; */
+    padding-right: 20px;
+}
+.baapkadiv img{
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    /* margin-top: 170px; */
+}
+
+/*  
+    #########################
+    ###############SECTION 5
+    ############################
+*/
+
+#mkc5{
+    padding: 5em 5em 14em 5em;
+    background-color: var(--back);
+}
+
+#mkc5 h1{
+    color: var(--heading);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+#mkc5 .pura-dabba{
+    background-color: #FFFFFF;
+    height: 550px;
+    border-radius: 5px;
+}
+
+#mkc5 .left-dabba{
+    background-color:var(--back2);
+    margin-top: 3%;
+    height: 95%;
+    border-radius: 3px;
+    position: relative;
+
+    padding: 2.5em 2em;
+}
+
+#mkc5 .left-dabba h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+}
+#mkc5 .left-dabba p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text);
+}
+
+#mkc5 .left-dabba .social-links{
+    margin-right: 10px;
+}
+
+#mkc5 .left-dabba .contact-design{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40%;
+}
+
+#mkc5 .right-dabba {
+    height: 100%;
+    padding: 5em 3em;
+}
+
+#mkc5 .right-dabba .field{
+    margin-bottom: 40px;
+}
+
+#mkc5 .right-dabba .field p{
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #171717;
+}
+
+#mkc5 .right-dabba .field input{
+    border: none;
+    border-bottom: 1px solid #D1D1D1;
+    width: 80%;
+    font-size: 14px;
+    outline: none;
+}
+
+#mkc5 .right-dabba button{
+    background-color: var(--primary);
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 65%;
+}
+
+/*  
+    #########################
+    ###############SECTION 6
+    ############################
+*/
+
+#mkc6{
+    z-index: 3;
+    margin-top: -16vh;
+    /* padding: 1em 5em; */
+    height: 15vh;
+    background-color: transparent;
+    text-align: center;
+}
+
+#mkc6 .container{
+    padding: 1.5em;
+    border-radius: 12px;
+    background-color: var(--primary);
+}
+#mkc6 .container h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 0.8em;
+}
+#mkc6 .container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #D1D1D1;
+    margin-bottom: 0.5em;
+}
+#mkc6 .container button{
+    background-color: var(--back2);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 7px 30px;
+}
+/*  
+    #########################
+    ############### Footer
+    ############################
+*/
+
+#footer{
+    z-index: 1;
+    background-color: var(--back2);
+    padding: 5em 6em 0.4em 6em;
+    color: #FFFFFF;
+}
+
+#footer .social-links{
+    margin-right: 15px;
+    height: 30px;
+}
+
+#footer .footer_links ul{
+    margin-bottom: 1em;
+}
+
+#footer .footer_links li{
+    list-style: none;
+    margin-bottom: 1em;
+}
+#footer .footer_links a{
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+#footer .footer_links a:hover{
+    color: var(--text);
+}
+
+#footer hr{
+    height: 0.1px;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+}
+
+#footer .f_copy p{
+    font-size: 16px;
+}
+
+#footer .f_social{
+    /* justify-content: right; */
+    text-align: right;
+}
+
+#footer .f_social img{
+    height: 30px;
+    width: 30px;
+    margin: 0 0.5em;
+}
+
+/*  
+    #########################
+    ############### Extra
+    ############################
+*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} 
